@@ -5,6 +5,8 @@ from discord.ext import commands
 # Client bot
 client = commands.Bot(command_prefix='!')
 
+
+
 @client.command(name='yo')
 async def version(context):
 
